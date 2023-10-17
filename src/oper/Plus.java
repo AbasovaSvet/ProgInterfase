@@ -1,7 +1,10 @@
-public class Plus implements Vichislator{
+package oper;
+import ifff.Vichislator;
+
+public class Plus implements Vichislator {
     @Override
-    public void asc(int a, int b, int rez) {
-
+    public int asc(int a, int b) {
+        int rez = a + b ;
+       return (rez);
     }
-
 }

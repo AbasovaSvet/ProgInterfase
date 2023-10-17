@@ -1,3 +1,11 @@
+package ifff;
+
+import java.util.Scanner;
+
 public interface Vichislator {
-    void asc( int a, int b, int rez);
+    Scanner scanner = new Scanner(System.in);
+    int a = scanner.nextInt();
+    int b = scanner.nextInt();
+    int asc( int a, int b);
+
 }
